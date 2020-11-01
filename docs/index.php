@@ -1,13 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>CRUD Petani Kode</title>
-	<link rel="icon" href="http://www.petanikode.com/favicon.ico" />
-</head>
-<body>
-
 <?php
-
+echo 'aaa'; 
 // --- koneksi ke database
 $koneksi = mysqli_connect("localhost","root","kopi","pertanian") or die(mysqli_error());
 
@@ -201,5 +193,3 @@ if (isset($_GET['aksi'])){
 }
 
 ?>
-</body>
-</html>
